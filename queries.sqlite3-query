@@ -1,0 +1,137 @@
+-- database: h:\12DTP\Baking site\database.db
+
+SELECT * FROM Recipe;
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Garlic Bread","Buttery, herby, and loaded with garlic, this homemade garlic bread is perfectly crisp on the outside, soft on the inside, and incredibly simple to whip up.","Preheat the oven to 350°F.  
+In a medium bowl, stir together the butter, garlic, and parsley until combined. Season to taste with salt and pepper.  
+Cut the bread lengthwise into two planks, and slather the cut sides with the butter, spreading evenly.  
+Sandwich the bread together, buttered sides touching, then wrap the loaf in foil. Place the foil-wrapped loaf on a rimmed baking sheet and transfer to the oven.  
+Bake for 10 minutes, then unwrap the loaf and arrange the two halves side by side on top of the foil, buttered-side up. 
+Sprinkle with the Parmesan, dividing evenly, and top with some red pepper flakes to taste.
+Preheat the broiler and arrange an oven rack in the top position. Return the bread still on the pan to the top rack and broil until deep golden brown, watching carefully so the bread doesnt burn, 2 to 3 minutes. 
+Remove from the oven, transfer to a cutting board, and cut each half crosswise into thick batons. 
+Serve warm.","5 mins","12 to 13 mins");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Grilled Naan","Native to India, this chewy, crusty flatbread made with yogurt is traditionally baked on the side of a tandoor. Enjoy naan brushed with melted butter or ghee or topped with chutney; its also a fine bread to serve alongside a South Asian-style meal, or to dip in soup.","To make the sponge: Weigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.
+Mix the sponge ingredients together in a mixing bowl. 
+Cover the bowl and set it aside for 4 hours or up to about 16 hours, until the mixture is bubbly and has a nice aroma.
+To make the dough: Add the dough ingredients to the sponge, and mix and knead to make a smooth, soft but not sticky dough. Adjust its consistency with additional flour or water, if necessary.
+Divide the dough into 8 balls 106g each, about 2 1/4, the size of a tennis ball. Let them rest, covered, store 30 mins the refrigerator.
+Stretch 1 ball into an oval shape a scant 1/4 thick.
+To grill the naan: Heat your grill on high; make sure it gets good and hot. Brush one side of the flatbread with oil and lay it, oiled side down, on the grill grate. Close the grill lid if your grill has a lid. After 1 minute, pick up the bread with a spatula, turn it 45°, and put it back down to cook for another minute; it'll start to puff up a bit. Oil the top side, then turn it over, cover the grill or pan, and cook for 2 minutes to finish. 
+Remove the naan from the heat. Repeat with the remaining pieces of dough.
+To cook naan on the stovetop: Heat a cast iron pan over medium-high heat. Brush one side of the naan with oil, and lay it into the pan. Cover the cooking bread with a pot lid; start checking after 1 minute; the bottom should be turning golden brown. If not, give it more time. Oil the top side, turn it over, and cook for an additional couple of minutes or so, until brown and cooked all the way through. Remove the naan from the heat. Repeat with the remaining pieces of dough.
+To serve, brush the naan with melted butter or ghee, and season it with salt and pepper while it's still hot. 
+Stack the breads to keep them soft.
+Store naan, well-wrapped, on the counter for two days; freeze for longer storage.","30 mins","1 to 2 minutes per side");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Sourdough Focaccia","With its oil-crisped crust and light, bubbly crumb, sourdough focaccia is a delicious and versatile bread, perfect for sandwiches but also great as an appetizer and dinner bread. Its also one of the easiest breads to make.","To make the dough: Combine the starter and water in a large mixing bowl.
+
+Weigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess. Combine the flour with the starter, water, and remaining ingredients. Mix and knead — by hand or stand mixer — until the dough is smooth and elastic. If you're using a stand mixer, this should take 5 to 7 minutes on the lowest speed using the dough hook attachment. If you're kneading by hand, you'll need 12 to 15 minutes.
+Place the dough in a bowl that's been lightly coated with olive oil, cover, and allow to rise for 60 minutes.
+Gently fold the dough over three or four times, and let it rise for another 60 minutes.
+Drizzle a generous 2 tablespoons olive oil into the center of a large rimmed baking sheet. 
+Transfer the dough to the pan, and turn it over to coat it with the oil.
+Gently stretch the dough into the edges and corners of the pan. As soon as the dough begins to shrink back, cover it, and let it rest for 10 to 15 minutes. Gently stretch the dough again, repeating the rest once more, if necessary, until the dough fills the pan.
+Cover the pan and transfer it to the refrigerator to let the dough rise for 14 to 16 hours overnight.
+The next day, remove the pan of dough from the refrigerator and preheat the oven to 218°C for 30 minutes if your kitchen is warm to 60 minutes in a cooler kitchen
+Just before you're ready to bake, gently dimple the dough at irregular intervals with your fingers, pressing down firmly but not abruptly; you don't want to deflate the focaccia too much.
+Drizzle 2 tablespoons olive oil or enough to collect a bit in the dimples, then sprinkle with rosemary and a bit of flaked sea salt.
+Bake the sourdough focaccia for 20 to 25 minutes, until light golden brown.
+Remove the focaccia from the oven. Allow it to cool enough for you to handle it comfortably, 10 to 15 minutes, then turn it out of the pan onto a rack.","30 mins","20 to 25 mins");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Chocolate Fudge Cake","This Chocolate Fudge Cake is so moist and chocolatey with an irresistible chocolate fudge frosting that is not to be missed! It is a simple small batch cake that comes together all in one bowl with minimal effort in one pan.","Preheat oven to 150C  or 130C fan. Grease a cake pan and line with parchment / baking paper. 
+Melt butter and chocolate: Place butter and chocolate in a heatproof bowl. Microwave 3 x 30 seconds on high, mix in between, until melted. Mix.
+Oil, vanilla & Sugar: Add oil, vanilla and sugar, mix to combine this brings down batter temp.
+Eggs: Add eggs and mix until combined.
+Dry Ingredients: Sift cocoa, baking powder and flour directly into the bowl. Mix until smooth, batter will be thin. Some small lumps is ok.
+Hot water: Add hot water. Mix until incorporated.
+Bake: Pour into the cake tin and bake for 1 hour or until a skewer inserted into the centre comes out moist but clean. Check at 50 minutes. The surface will crack, sometimes badly! but sill subside when it cools and gets covered with frosting so dont stress!
+Cool: Remove sides from the cake pan and transfer to a cooling rack to cool. Cool completely before carefully handling to remove base. 
+Ganache
+Place chocolate and cream in a heatproof bowl. Microwave 3 x 30 seconds, mixing in between, until chocolate melts. DO NOT let cream come to boil.
+Stir chocolate until smooth. Refrigerate for 1 to 2 hours or until thickened to a spreadable consistency like peanut butter.
+Spread over the cake, tops and sides","10 mins","1 hour");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Vanilla Cake","This is the best vanilla cake recipe. A classic butter cake but with Japanese techniques applied for the most plush, soft and moist yellow cake like youve never had before. This professional bakery style cake stays fresh and moist for 4 days — thats unheard of!","Preheat oven to 180°C, 160°C fan for 20 minutes before starting the batter
+Grease cake pans with butter, then line with parchment / baking paper
+Combine Dry Ingredients:
+Whisk flour, baking powder and salt in a large bowl. Set aside.
+Beat eggs until aerated:
+30 sec beat: Beat eggs for 30 seconds on speed 6 of a Stand Mixer fitted with a whisk attachment, or hand beater.
+Slowly add sugar: With the beater still going, pour the sugar in over 45 seconds.
+Triple volume: Then beat for 7 minutes on speed 8, or until tripled in volume and white.
+Finish cake batter:
+Heat Milk-Butter: While egg is beating, place butter and milk in a heatproof jug and microwave 2 minutes on high to melt butter.
+Gently add flour: When the egg is whipped, scatter 1/3 flour across surface, then beat on Speed 1 for 5 seconds. Add half remaining flour, then mix on Speed 1 for 5 sec. Add remaining flour, then mix on Speed 1 for 5 to 10 sec until the flour is just mixed in. Once you cant see flour, stop straight away.
+Combine milk, vanilla & oil. Pour hot milk, vanilla and oil into the now empty flour bowl.
+Lighten with some Egg Batter: Add about 1 1/2 cups of the Egg Batter into the Milk-Butter don't need to be 100% accurate with amount, Use a whisk to mix until smooth, you can be vigorous here. Will look foamy.
+Slowly add milk: Turn beater back on Speed 1 then pour the Milk mixture into the Egg Batter over 15 seconds, then turn beater off.
+Scrape and final mix: Scrape down sides and base of bowl. Beat on Speed 1 for 10 seconds, batter should now be smooth and pourable.
+Bake:
+Pour batter into pans.
+Knock out bubbles: Bang each cake pan on the counter 3 times to knock out big bubbles
+Bake 30 minutes or until golden and toothpick inserted into centre comes out clean.
+Cool & frost:
+Turn out & cool: Remove from oven. Cool in cake pans for 15 minutes, then gently turn out onto cooling racks. If using as layer cakes, cool upside down, slight dome will flatten perfectly. Level cake = neat layers.
+Frost: Once cake layers are fully cool, top with frosting of choice, or cream and fresh berries or jam.
+Vanilla Buttercream:
+Beat butter with paddle attachment in stand mixer for 3 minutes on high until it changes from yellow to almost white, and it becomes fluffy and creamy.
+Add icing sugar / powdered sugar gradually in 3 lots, beating slowly, to avoid a powder storm then once mostly incorporated, beat on high for a full 3 minutes until fluffy.
+Add vanilla and milk, then beat for a further 30 seconds. Use milk only if needed to make it lovely and soft but still holds it's form. Use immediately. If you make ahead, refrigerate then beat to re-fluff","20 mins","30 mins");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Strawberry Cake","You will fall in love with this fresh Strawberry Cake made with a homemade strawberry puree. It's moist, tender, and the most beautiful shade of pink! This recipe combines layers of real strawberry flavored cake and a strawberry cream cheese frosting, so you get fresh strawberry flavor with every bite!","For the Strawberry Puree
+Hull the strawberries. Place them in a blender canister and puree on high for about 30 seconds until smooth.
+Pour the mixture into a small saucepan and bring to a simmer over medium heat, stirring frequently. Cook until reduced by about half, 25 minutes for fresh and up to 45 minutes for frozen. You should have 1 cup of reduction. Let cool completely before dividing to use in both the cake layers and the frosting.
+For the Cake:
+Preheat the oven to 177°C. Butter 2 round cake pans, or spray with baking spray. Line the bottoms with parchment paper.
+In a large bowl, whisk together the flour, baking powder, salt, and baking soda.
+In a large mixing bowl or the bowl of a stand mixer with the paddle attachment, beat the butter on medium speed just until creamy. Add the sugar and beat until light and fluffy, about 5 minutes.
+Scrape down the bowl and add the egg whites and vanilla. Beat on medium speed for about 1 minute or until well combined and very fluffy. Reduce the speed to low. Add the flour mixture alternating with the milk and the strawberry reduction, mixing just until combined. Stop and scrape down the bowl as needed. If desired, mix in a drop or two of pink food coloring. Divide the batter among the two cake pans.
+Bake for 30 minutes or until the cake is springy to the touch and starts to pull away from the sides of the pans. Let the cakes cool in the pans for 20 minutes. Remove and let cool completely on a wire rack. Discard the parchment paper.
+For the Strawberry Frosting:
+In a large mixing bowl or the bowl of a stand mixer fitted with the paddle attachment, beat the cream cheese, butter, vanilla, and salt until smooth and fluffy, about 5 minutes.
+With the mixer on low, gradually add in the powdered sugar alternating with a tablespoon of the strawberry puree. Stop and scrape down the bowl a few times during mixing. Once all of the sugar is added, increase the speed to medium and beat until fluffy. If the frosting feels too stiff and not silky, add a tablespoon or two of puree or milk.
+For the Assembly:
+Place a cake layer on a cake stand. Spread about 1 cup of frosting on top of the cake. Top with the second layer. Spread the remaining frosting all over the outside of the cake and decorate as desired. The cake should be stored covered and will keep at room temperature for up to 5 days.","25 mins","55 mins");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Chewy Chocolate Chip Cookies","This chocolate chip cookie recipe is my holy grail of cookies! Soft and chewy with perfectly crispy edges and melty chocolate chunks.","In a large bowl, whisk the flour, baking soda, cornstarch, and salt together. Set aside.
+In a medium bowl, whisk the melted butter, brown sugar, and granulated sugar together until no lumps remain. Whisk in the egg and egg yolk until combined, then whisk in the vanilla extract. The mixture will be thin. Pour into dry ingredients and mix together with a large spoon or spatula. The dough will be very soft, thick, and shiny. Fold in the chocolate chips. The chocolate chips may not stick to the dough because of the melted butter, but do your best to combine them.
+Cover the dough tightly and refrigerate for at least 2 hours or up to 3 days. I highly recommend chilling the cookie dough overnight to prevent overspreading.
+Preheat oven to 163°C. Line large baking sheets with parchment paper or silicone baking mats. If the dough has chilled for longer than 2 hours, let it sit at room temperature for about 15 minutes.
+Using a cookie scoop or Tablespoon measuring spoon, scoop the chilled cookie dough, about 3 scant Tablespoons 60g of dough for XL cookies or 2 heaping Tablespoons, about 50g of dough for medium-large cookies. Roll into a ball, then use your fingers to shape the cookie dough so that its taller rather than wide—almost like a cylinder. This helps the cookies bake up thicker. Repeat with remaining dough. Arrange the cookies 3 inches apart on the prepared baking sheets.
+Bake the cookies for 13 to 14 minutes or until the edges are very lightly browned. The centers will look very soft, but the cookies will continue to set as they cool. Cool on the baking sheet for 10 minutes before transferring to a cooling rack to cool completely. While the cookies are still warm, I like to press a few more chocolate chips into the tops—this is optional and only for looks! 
+Store tightly covered at room temperature for up to 1 week.","15 mins","13 mins");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Mini Egg Crumbl Cookies","Deliciously soft crumbl cookie inspired mini egg cookies with a pastel buttercream frosting and mini eggs on top.","Preheat the oven to 190ºc/170ºc fan and line 2 to 3 trays with parchment paper
+Beat together the butter and sugar until light and fluffy
+Add the egg and vanilla, and mix
+Add the flour, cornflour, bicarbonate and salt and mix again
+Mix through the mini eggs if using
+Portion the cookies and make 12 to 14 cookies
+Optional - chill the cookies for an hour for a less spread texture
+Bake for 11 to 12 minutes and then leave to cool fully
+In a new bowl, beat the butter on it's own until smooth
+Add the icing sugar and mix
+Add the vanilla and food colouring and mix again
+Pipe/spread onto the cookies and decorate with mini eggs","30 mins","15 mins");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("White Chocolate Macadamia Cookies","Delicious, chocolatey, nutty and heavenly white chocolate and macadamia cookies!","Preheat the oven to 180ºC Fan or 200ºC regular, and line two-three trays with parchment paper.
+Add the unsalted butter and sugar to a bowl and beat until creamy.
+Add in the egg and vanilla extract and beat again.
+Add in the plain flour, cornflour, bicarbonate of soda, and salt and beat until a cookie dough is formed.
+Add in the chocolate chips, chopped macadmia nuts and beat until they are distributed well!
+Scoop the cookies using a 5cm scoop onto lined trays, I do max 6 per tray, and bake in the oven for 10 minutes!
+Remove the trays from the oven and leave the cookies to cool for 10 minutes before cooling fully on a wire rack!
+ENJOY!","20 mins","10 mins");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Homemade Sugar Donuts","This simple homemade donut dough is made with flour, milk, egg yolks, yeast, and sugar, then the donuts are fried and dredged in sugar. This recipe is easy to make and produces a very indulgent little treat! Make it once and youll never use a different recipe for donuts. Its soo good!","Proof yeast: Stir 2 tbsp warm water, 1/2 tsp sugar & 2 1/2tsp active dry yeast in a tall glass. Leave to rise for 5-10 minutes or until doubled in volume and foamy. If it does not rise and foam up, discard the yeast and buy a fresh batch of yeast before you proceed with the recipe.
+Make donut dough: Mix together 3 1/4 cups flour, 1 cup warm milk, 2 oz room temperature butter, 3 yolks, 2 tbsp sugar, 1/4 teaspoon salt, and the proofed yeast mixture in mixer on low speed, with the dough hook attachment until the dough comes together, about 2 minutes. Slightly increase the speed and knead for another 15-20 minutes or until the dough is tacky to touch. If you continue kneading past the point of smooth and stretchy dough, the dough will overknead and make doughy donuts, so keep a close eye on the dough.
+Shape donut dough: Pick up the dough, form it into a ball. Butter a large bowl, place the dough ball back in the greased bowl, then grease the dough ball itself to prevent it from forming a crust.
+Proof: Cover with a clean kitchen towel, place in a warm draft-free place and allow to rise for 1-2 hours until at least doubled in volume.
+Cut out 5x5 squares of parchment or wax paper.
+Punch down the dough, turn it out onto the greased surface and roll it to ½ inches thickness. Cut out as many rounds as possible with a 3 inch round cookie cutter and place 1 dough disk on 1 piece of prepared parchment paper. Keep re-rolling and cutting out as many donut disks as you can until all donut dough is used up.
+Cover cut out doughnuts with a clean kitchen towel and allow to rise for 45 min to 1 hour or until doubled in size.
+Heat 1½ inches oil in a heavy pot to 177C. To fry donuts, drop several of them at a time and allow to become golden before turning to the other side, about 1-2 minutes per side.
+Transfer to paper towels or wire rack to drain. Let cool.
+Once the doughnuts are cool enough to handle, roll them in granulated sugar or powdered sugar.","2 hours","30 mins");
