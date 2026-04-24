@@ -2,7 +2,7 @@
 
 SELECT * FROM Recipe;
 
-INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Garlic Bread","Buttery, herby, and loaded with garlic, this homemade garlic bread is perfectly crisp on the outside, soft on the inside, and incredibly simple to whip up.","Preheat the oven to 350°F.  
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Garlic Bread","Buttery, herby, and loaded with garlic, this homemade garlic bread is perfectly crisp on the outside, soft on the inside, and incredibly simple to whip up.","Preheat the oven to 350°F.  
 In a medium bowl, stir together the butter, garlic, and parsley until combined. Season to taste with salt and pepper.  
 Cut the bread lengthwise into two planks, and slather the cut sides with the butter, spreading evenly.  
 Sandwich the bread together, buttered sides touching, then wrap the loaf in foil. Place the foil-wrapped loaf on a rimmed baking sheet and transfer to the oven.  
@@ -10,9 +10,9 @@ Bake for 10 minutes, then unwrap the loaf and arrange the two halves side by sid
 Sprinkle with the Parmesan, dividing evenly, and top with some red pepper flakes to taste.
 Preheat the broiler and arrange an oven rack in the top position. Return the bread still on the pan to the top rack and broil until deep golden brown, watching carefully so the bread doesnt burn, 2 to 3 minutes. 
 Remove from the oven, transfer to a cutting board, and cut each half crosswise into thick batons. 
-Serve warm.","5 mins","12 to 13 mins");
+Serve warm.","5 minutes","12 to 13 minutes");
 
-INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Grilled Naan","Native to India, this chewy, crusty flatbread made with yogurt is traditionally baked on the side of a tandoor. Enjoy naan brushed with melted butter or ghee or topped with chutney; its also a fine bread to serve alongside a South Asian-style meal, or to dip in soup.","To make the sponge: Weigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Grilled Naan","Native to India, this chewy, crusty flatbread made with yogurt is traditionally baked on the side of a tandoor. Enjoy naan brushed with melted butter or ghee or topped with chutney; its also a fine bread to serve alongside a South Asian-style meal, or to dip in soup.","To make the sponge: Weigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.
 Mix the sponge ingredients together in a mixing bowl. 
 Cover the bowl and set it aside for 4 hours or up to about 16 hours, until the mixture is bubbly and has a nice aroma.
 To make the dough: Add the dough ingredients to the sponge, and mix and knead to make a smooth, soft but not sticky dough. Adjust its consistency with additional flour or water, if necessary.
@@ -23,10 +23,9 @@ Remove the naan from the heat. Repeat with the remaining pieces of dough.
 To cook naan on the stovetop: Heat a cast iron pan over medium-high heat. Brush one side of the naan with oil, and lay it into the pan. Cover the cooking bread with a pot lid; start checking after 1 minute; the bottom should be turning golden brown. If not, give it more time. Oil the top side, turn it over, and cook for an additional couple of minutes or so, until brown and cooked all the way through. Remove the naan from the heat. Repeat with the remaining pieces of dough.
 To serve, brush the naan with melted butter or ghee, and season it with salt and pepper while it's still hot. 
 Stack the breads to keep them soft.
-Store naan, well-wrapped, on the counter for two days; freeze for longer storage.","30 mins","1 to 2 minutes per side");
+Store naan, well-wrapped, on the counter for two days; freeze for longer storage.","30 minutes","1 to 2 minutes per side");
 
-INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Sourdough Focaccia","With its oil-crisped crust and light, bubbly crumb, sourdough focaccia is a delicious and versatile bread, perfect for sandwiches but also great as an appetizer and dinner bread. Its also one of the easiest breads to make.","To make the dough: Combine the starter and water in a large mixing bowl.
-
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Sourdough Focaccia","With its oil-crisped crust and light, bubbly crumb, sourdough focaccia is a delicious and versatile bread, perfect for sandwiches but also great as an appetizer and dinner bread. Its also one of the easiest breads to make.","To make the dough: Combine the starter and water in a large mixing bowl.
 Weigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess. Combine the flour with the starter, water, and remaining ingredients. Mix and knead — by hand or stand mixer — until the dough is smooth and elastic. If you're using a stand mixer, this should take 5 to 7 minutes on the lowest speed using the dough hook attachment. If you're kneading by hand, you'll need 12 to 15 minutes.
 Place the dough in a bowl that's been lightly coated with olive oil, cover, and allow to rise for 60 minutes.
 Gently fold the dough over three or four times, and let it rise for another 60 minutes.
@@ -38,9 +37,9 @@ The next day, remove the pan of dough from the refrigerator and preheat the oven
 Just before you're ready to bake, gently dimple the dough at irregular intervals with your fingers, pressing down firmly but not abruptly; you don't want to deflate the focaccia too much.
 Drizzle 2 tablespoons olive oil or enough to collect a bit in the dimples, then sprinkle with rosemary and a bit of flaked sea salt.
 Bake the sourdough focaccia for 20 to 25 minutes, until light golden brown.
-Remove the focaccia from the oven. Allow it to cool enough for you to handle it comfortably, 10 to 15 minutes, then turn it out of the pan onto a rack.","30 mins","20 to 25 mins");
+Remove the focaccia from the oven. Allow it to cool enough for you to handle it comfortably, 10 to 15 minutes, then turn it out of the pan onto a rack.","30 minutes","20 to 25 minutes");
 
-INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Chocolate Fudge Cake","This Chocolate Fudge Cake is so moist and chocolatey with an irresistible chocolate fudge frosting that is not to be missed! It is a simple small batch cake that comes together all in one bowl with minimal effort in one pan.","Preheat oven to 150C  or 130C fan. Grease a cake pan and line with parchment / baking paper. 
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Chocolate Fudge Cake","This Chocolate Fudge Cake is so moist and chocolatey with an irresistible chocolate fudge frosting that is not to be missed! It is a simple small batch cake that comes together all in one bowl with minimal effort in one pan.","Preheat oven to 150C  or 130C fan. Grease a cake pan and line with parchment / baking paper. 
 Melt butter and chocolate: Place butter and chocolate in a heatproof bowl. Microwave 3 x 30 seconds on high, mix in between, until melted. Mix.
 Oil, vanilla & Sugar: Add oil, vanilla and sugar, mix to combine this brings down batter temp.
 Eggs: Add eggs and mix until combined.
@@ -51,9 +50,9 @@ Cool: Remove sides from the cake pan and transfer to a cooling rack to cool. Coo
 Ganache
 Place chocolate and cream in a heatproof bowl. Microwave 3 x 30 seconds, mixing in between, until chocolate melts. DO NOT let cream come to boil.
 Stir chocolate until smooth. Refrigerate for 1 to 2 hours or until thickened to a spreadable consistency like peanut butter.
-Spread over the cake, tops and sides","10 mins","1 hour");
+Spread over the cake, tops and sides","10 minutes","1 hour");
 
-INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Vanilla Cake","This is the best vanilla cake recipe. A classic butter cake but with Japanese techniques applied for the most plush, soft and moist yellow cake like youve never had before. This professional bakery style cake stays fresh and moist for 4 days — thats unheard of!","Preheat oven to 180°C, 160°C fan for 20 minutes before starting the batter
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Vanilla Cake","This is the best vanilla cake recipe. A classic butter cake but with Japanese techniques applied for the most plush, soft and moist yellow cake like youve never had before. This professional bakery style cake stays fresh and moist for 4 days — thats unheard of!","Preheat oven to 180°C, 160°C fan for 20 minutes before starting the batter
 Grease cake pans with butter, then line with parchment / baking paper
 Combine Dry Ingredients:
 Whisk flour, baking powder and salt in a large bowl. Set aside.
@@ -68,8 +67,7 @@ Combine milk, vanilla & oil. Pour hot milk, vanilla and oil into the now empty f
 Lighten with some Egg Batter: Add about 1 1/2 cups of the Egg Batter into the Milk-Butter don't need to be 100% accurate with amount, Use a whisk to mix until smooth, you can be vigorous here. Will look foamy.
 Slowly add milk: Turn beater back on Speed 1 then pour the Milk mixture into the Egg Batter over 15 seconds, then turn beater off.
 Scrape and final mix: Scrape down sides and base of bowl. Beat on Speed 1 for 10 seconds, batter should now be smooth and pourable.
-Bake:
-Pour batter into pans.
+Bake: Pour batter into pans.
 Knock out bubbles: Bang each cake pan on the counter 3 times to knock out big bubbles
 Bake 30 minutes or until golden and toothpick inserted into centre comes out clean.
 Cool & frost:
@@ -78,9 +76,9 @@ Frost: Once cake layers are fully cool, top with frosting of choice, or cream an
 Vanilla Buttercream:
 Beat butter with paddle attachment in stand mixer for 3 minutes on high until it changes from yellow to almost white, and it becomes fluffy and creamy.
 Add icing sugar / powdered sugar gradually in 3 lots, beating slowly, to avoid a powder storm then once mostly incorporated, beat on high for a full 3 minutes until fluffy.
-Add vanilla and milk, then beat for a further 30 seconds. Use milk only if needed to make it lovely and soft but still holds it's form. Use immediately. If you make ahead, refrigerate then beat to re-fluff","20 mins","30 mins");
+Add vanilla and milk, then beat for a further 30 seconds. Use milk only if needed to make it lovely and soft but still holds it's form. Use immediately. If you make ahead, refrigerate then beat to re-fluff","20 minutes","30 minutes");
 
-INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Strawberry Cake","You will fall in love with this fresh Strawberry Cake made with a homemade strawberry puree. It's moist, tender, and the most beautiful shade of pink! This recipe combines layers of real strawberry flavored cake and a strawberry cream cheese frosting, so you get fresh strawberry flavor with every bite!","For the Strawberry Puree
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Strawberry Cake","You will fall in love with this fresh Strawberry Cake made with a homemade strawberry puree. It's moist, tender, and the most beautiful shade of pink! This recipe combines layers of real strawberry flavored cake and a strawberry cream cheese frosting, so you get fresh strawberry flavor with every bite!","For the Strawberry Puree
 Hull the strawberries. Place them in a blender canister and puree on high for about 30 seconds until smooth.
 Pour the mixture into a small saucepan and bring to a simmer over medium heat, stirring frequently. Cook until reduced by about half, 25 minutes for fresh and up to 45 minutes for frozen. You should have 1 cup of reduction. Let cool completely before dividing to use in both the cake layers and the frosting.
 For the Cake:
@@ -93,17 +91,17 @@ For the Strawberry Frosting:
 In a large mixing bowl or the bowl of a stand mixer fitted with the paddle attachment, beat the cream cheese, butter, vanilla, and salt until smooth and fluffy, about 5 minutes.
 With the mixer on low, gradually add in the powdered sugar alternating with a tablespoon of the strawberry puree. Stop and scrape down the bowl a few times during mixing. Once all of the sugar is added, increase the speed to medium and beat until fluffy. If the frosting feels too stiff and not silky, add a tablespoon or two of puree or milk.
 For the Assembly:
-Place a cake layer on a cake stand. Spread about 1 cup of frosting on top of the cake. Top with the second layer. Spread the remaining frosting all over the outside of the cake and decorate as desired. The cake should be stored covered and will keep at room temperature for up to 5 days.","25 mins","55 mins");
+Place a cake layer on a cake stand. Spread about 1 cup of frosting on top of the cake. Top with the second layer. Spread the remaining frosting all over the outside of the cake and decorate as desired. The cake should be stored covered and will keep at room temperature for up to 5 days.","25 minutes","55 minutes");
 
-INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Chewy Chocolate Chip Cookies","This chocolate chip cookie recipe is my holy grail of cookies! Soft and chewy with perfectly crispy edges and melty chocolate chunks.","In a large bowl, whisk the flour, baking soda, cornstarch, and salt together. Set aside.
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Chewy Chocolate Chip Cookies","This chocolate chip cookie recipe is my holy grail of cookies! Soft and chewy with perfectly crispy edges and melty chocolate chunks.","In a large bowl, whisk the flour, baking soda, cornstarch, and salt together. Set aside.
 In a medium bowl, whisk the melted butter, brown sugar, and granulated sugar together until no lumps remain. Whisk in the egg and egg yolk until combined, then whisk in the vanilla extract. The mixture will be thin. Pour into dry ingredients and mix together with a large spoon or spatula. The dough will be very soft, thick, and shiny. Fold in the chocolate chips. The chocolate chips may not stick to the dough because of the melted butter, but do your best to combine them.
 Cover the dough tightly and refrigerate for at least 2 hours or up to 3 days. I highly recommend chilling the cookie dough overnight to prevent overspreading.
 Preheat oven to 163°C. Line large baking sheets with parchment paper or silicone baking mats. If the dough has chilled for longer than 2 hours, let it sit at room temperature for about 15 minutes.
 Using a cookie scoop or Tablespoon measuring spoon, scoop the chilled cookie dough, about 3 scant Tablespoons 60g of dough for XL cookies or 2 heaping Tablespoons, about 50g of dough for medium-large cookies. Roll into a ball, then use your fingers to shape the cookie dough so that its taller rather than wide—almost like a cylinder. This helps the cookies bake up thicker. Repeat with remaining dough. Arrange the cookies 3 inches apart on the prepared baking sheets.
 Bake the cookies for 13 to 14 minutes or until the edges are very lightly browned. The centers will look very soft, but the cookies will continue to set as they cool. Cool on the baking sheet for 10 minutes before transferring to a cooling rack to cool completely. While the cookies are still warm, I like to press a few more chocolate chips into the tops—this is optional and only for looks! 
-Store tightly covered at room temperature for up to 1 week.","15 mins","13 mins");
+Store tightly covered at room temperature for up to 1 week.","15 minutes","13 minutes");
 
-INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Mini Egg Crumbl Cookies","Deliciously soft crumbl cookie inspired mini egg cookies with a pastel buttercream frosting and mini eggs on top.","Preheat the oven to 190ºc/170ºc fan and line 2 to 3 trays with parchment paper
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Mini Egg Crumbl Cookies","Deliciously soft crumbl cookie inspired mini egg cookies with a pastel buttercream frosting and mini eggs on top.","Preheat the oven to 190ºc/170ºc fan and line 2 to 3 trays with parchment paper
 Beat together the butter and sugar until light and fluffy
 Add the egg and vanilla, and mix
 Add the flour, cornflour, bicarbonate and salt and mix again
@@ -114,18 +112,18 @@ Bake for 11 to 12 minutes and then leave to cool fully
 In a new bowl, beat the butter on it's own until smooth
 Add the icing sugar and mix
 Add the vanilla and food colouring and mix again
-Pipe/spread onto the cookies and decorate with mini eggs","30 mins","15 mins");
+Pipe/spread onto the cookies and decorate with mini eggs","30 minutes","15 minutes");
 
-INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("White Chocolate Macadamia Cookies","Delicious, chocolatey, nutty and heavenly white chocolate and macadamia cookies!","Preheat the oven to 180ºC Fan or 200ºC regular, and line two-three trays with parchment paper.
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("White Chocolate Macadamia Cookies","Delicious, chocolatey, nutty and heavenly white chocolate and macadamia cookies!","Preheat the oven to 180ºC Fan or 200ºC regular, and line two-three trays with parchment paper.
 Add the unsalted butter and sugar to a bowl and beat until creamy.
 Add in the egg and vanilla extract and beat again.
 Add in the plain flour, cornflour, bicarbonate of soda, and salt and beat until a cookie dough is formed.
 Add in the chocolate chips, chopped macadmia nuts and beat until they are distributed well!
 Scoop the cookies using a 5cm scoop onto lined trays, I do max 6 per tray, and bake in the oven for 10 minutes!
 Remove the trays from the oven and leave the cookies to cool for 10 minutes before cooling fully on a wire rack!
-ENJOY!","20 mins","10 mins");
+ENJOY!","20 minutes","10 minutes");
 
-INSERT INTO Recipe(RecipeName,Description,Instructions,PrepTime,CookTime) VALUES("Homemade Sugar Donuts","This simple homemade donut dough is made with flour, milk, egg yolks, yeast, and sugar, then the donuts are fried and dredged in sugar. This recipe is easy to make and produces a very indulgent little treat! Make it once and youll never use a different recipe for donuts. Its soo good!","Proof yeast: Stir 2 tbsp warm water, 1/2 tsp sugar & 2 1/2tsp active dry yeast in a tall glass. Leave to rise for 5-10 minutes or until doubled in volume and foamy. If it does not rise and foam up, discard the yeast and buy a fresh batch of yeast before you proceed with the recipe.
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Homemade Sugar Donuts","This simple homemade donut dough is made with flour, milk, egg yolks, yeast, and sugar, then the donuts are fried and dredged in sugar. This recipe is easy to make and produces a very indulgent little treat! Make it once and youll never use a different recipe for donuts. Its soo good!","Proof yeast: Stir 2 tbsp warm water, 1/2 tsp sugar & 2 1/2tsp active dry yeast in a tall glass. Leave to rise for 5-10 minutes or until doubled in volume and foamy. If it does not rise and foam up, discard the yeast and buy a fresh batch of yeast before you proceed with the recipe.
 Make donut dough: Mix together 3 1/4 cups flour, 1 cup warm milk, 2 oz room temperature butter, 3 yolks, 2 tbsp sugar, 1/4 teaspoon salt, and the proofed yeast mixture in mixer on low speed, with the dough hook attachment until the dough comes together, about 2 minutes. Slightly increase the speed and knead for another 15-20 minutes or until the dough is tacky to touch. If you continue kneading past the point of smooth and stretchy dough, the dough will overknead and make doughy donuts, so keep a close eye on the dough.
 Shape donut dough: Pick up the dough, form it into a ball. Butter a large bowl, place the dough ball back in the greased bowl, then grease the dough ball itself to prevent it from forming a crust.
 Proof: Cover with a clean kitchen towel, place in a warm draft-free place and allow to rise for 1-2 hours until at least doubled in volume.
@@ -134,4 +132,95 @@ Punch down the dough, turn it out onto the greased surface and roll it to ½ inc
 Cover cut out doughnuts with a clean kitchen towel and allow to rise for 45 min to 1 hour or until doubled in size.
 Heat 1½ inches oil in a heavy pot to 177C. To fry donuts, drop several of them at a time and allow to become golden before turning to the other side, about 1-2 minutes per side.
 Transfer to paper towels or wire rack to drain. Let cool.
-Once the doughnuts are cool enough to handle, roll them in granulated sugar or powdered sugar.","2 hours","30 mins");
+Once the doughnuts are cool enough to handle, roll them in granulated sugar or powdered sugar.","2 hours","30 minutes");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Glazed Donuts","This easy Glazed Donut Recipe delivers a light, fluffy classic donut, truly the best donuts ever! This is the perfect donut recipe if youre new to donut making or just want to make a special treat for friends or family.","Prepare the dough: Whisk the warm milk, yeast, and 1 Tablespoon sugar together in the bowl of your stand mixer. Loosely cover and allow to sit for 5 to 10 minutes until foamy and frothy on top. If you do not own a stand mixer, you can do this in a large mixing bowl, and in the next step, mix the dough together with a large wooden spoon/silicone spatula. It will take a bit of arm muscle. A hand mixer works, but the sticky dough repeatedly gets stuck in the beaters. Mixing by hand with a wooden spoon or silicone spatula is a better choice.
+Add the remaining sugar, the eggs, butter, vanilla, nutmeg, salt, and 2 cups, about 250g flour. Beat on low speed for 1 minute. Scrape down the sides of the bowl with a silicone spatula as needed. Add remaining flour and beat on medium speed until the dough comes together and pulls away from the sides of the bowl, about 2 minutes. If needed, add more flour, 1 Tablespoon at a time, until the dough pulls away from the sides of the bowl. Dont add too much flour, though. You want a slightly sticky dough.
+Knead the dough: Keep the dough in the mixer and beat for an additional 5-7 full minutes, or knead by hand on a lightly floured surface for 5-7 full minutes. If the dough becomes too sticky during the kneading process, sprinkle 1 teaspoon of flour at a time on the dough or on the work surface/in the bowl to make a soft, slightly tacky dough. Do not add more flour than you need because you do not want a dry dough. After kneading, the dough should still feel a little soft. Poke it with your finger, if it slowly bounces back, your dough is ready to rise. 
+Let Dough Rise: Lightly grease a large bowl with oil or nonstick spray. Place the dough in the bowl, turning it to coat all sides in the oil. Cover the bowl and allow the dough to rise in a relatively warm environment for 1.5 to 2 hours or until double in size.
+Shape Doughnuts: When the dough is ready, punch it down to release the air. Remove dough from the bowl and turn it out onto a lightly floured surface. Using a rolling pin, roll the dough out until it is 1/2 inch thick. Using a doughnut cutter, cut into doughnuts. Re-roll the scraps and cut more. If you dont have a doughnut cutter, you can use 1 large + 1 smaller circle cookie cutter
+Line 1 or 2 baking sheets with parchment paper or silicone baking mats. Place doughnuts and doughnut holes on each. Loosely cover and allow to rest for 30 minutes as you heat the oil. They will rise a bit as they rest. Place a cooling rack over another baking sheet.
+Pour oil into a large heavy-duty pot
+Turn stove on to medium heat. Heat oil to 191°C. Add 2 to 3 doughnuts at a time and cook for 1 minute on each side. Carefully remove with a metal slotted spatula or metal slotted spoon. Be sure to lower stoves temperature if oil temperature is rising; you want it to stay at 191°C. Wear kitchen gloves if oil is splashing. Place fried doughnuts onto prepared rack. Repeat with remaining doughnuts, then turn off heat
+Make the glaze: Whisk all the glaze ingredients together. Dip each warm doughnut, dont wait for them to cool! into the glaze, making sure to coat both sides. Place back onto prepared rack, as excess glaze drips down. After about 20 minutes, the glaze will set.
+Doughnuts are best enjoyed the same day. You can store leftover doughnuts in an airtight container at room temperature or in the refrigerator for another day or two.","2 hours, 10 minutes","10 minutes");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Chocolate Donuts","Moist and fluffy chocolate glazed donuts that are baked, not fried. Theyre glazed with a thick chocolate glaze and are perfect for any chocoholic craving something extra indulgent!","Preheat oven to 350°F/180°. Grease a donut pan with oil or butter. Set aside.
+Make the donuts: Whisk together the flour, cocoa powder, baking powder, baking soda, and salt in a large bowl. Set aside.
+In a medium bowl whisk egg with sugar until well combined. Add milk, yogurt, melted butter and vanilla extract, and whisk until combined. Pour into the flour mixture and mix until just combined. The batter will be thick.
+Fill donut cavities with batter ¾ way full using a spoon or a piping bag, it's much easier with a piping bag. Cut a corner off the bottom of the bag and pipe the batter into each donut cup.
+Bake for 9 to 10 minutes or until a toothpick inserted into the center of the donuts comes out clean. Allow to cool for 5 minutes in pan, then remove donuts from pan and transfer to a wire rack. Allow to cool completely before glazing.
+Make the chocolate glaze: Melt the chocolate, heavy cream, and butter gently in the microwave, in 30-second intervals, stirring in between or a double boiler until smooth. Dip the tops of the donuts into the chocolate glaze, and place on a cooling rack to set.
+Donuts are best eaten the same day or keep them for up to 3 days in the refrigerator.","30 minutes","10 minutes");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Christmas Crinkle Cookies","Love crinkle cookies? Try our extra-festive version for Christmas, with orange zest, mixed spice and cinnamon and not forgetting the classic fudgy centre","Mix the cocoa, caster sugar and oil together. Add the eggs one at a time, whisking until fully combined.
+Combine the flour, baking powder, orange zest, mixed spice, cinnamon and a pinch of salt in a separate bowl, then add to the cocoa mixture and mix until a soft dough forms. If it feels too soft, put in the fridge to chill for 1 hr.
+Heat the oven to 190C/170C fan/gas and tip the icing sugar into a shallow dish. Roll heaped teaspoons of the dough into balls, then roll in the icing sugar to coat. Put the balls on one large or two medium baking trays lined with baking parchment, ensuring theyre evenly spaced apart.
+Bake on the middle rack of the oven for 10 mins, then transfer to a wire rack to cool, they will firm up as they cool, but still be fudgy in the centre. Will keep for up to four days in an airtight container.","20 minutes","10 minutes");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Heart Shaped Sandwhich Cookies","Spread some love with these cute heart shaped sandwich cookies. Each cookie features a soft buttery sugar cookie, filled with sweet raspberry buttercream icing and topped with pink sugar crystals for a crispy bite. They make the perfect cookie for Valentines Day or any special occasion.","Make your cookie dough. In a large bowl of a stand mixer, beat butter with the paddle attachment for approx. 1 minute. Slowly add the sugar with the mixer running on medium-low speed. Scrape down the sides of the bowl as necessary. Continue to beat until fluffy. Add egg and vanilla extract. Beat until thick, pale in colour and fluffy. 
+In a separate large bowl add flour, baking powder and salt. Mix to combine ingredients.
+Spoon the flour mixture into the butter mixture beating on medium-low speed. Beat until the mixture forms into a ball.
+Flatten the dough into a disc, wrap in plastic wrap and refrigerate for 20 minutes. 
+Meanwhile, preheat the oven to 177˚C and line 2 baking sheets with parchment paper.
+Prepare your coloured sugar. In a small bowl add sugar and food colouring. Mix until the sugar turns pink. Set aside. 
+Make your icing. Beat butter for approx. 1 minute, add icing sugar, 1/2 tablespoon of whipping cream and fresh raspberries. Beat until the raspberries have broken and the mixture is fluffy and light, approx. 2 minutes. Add more whipping cream to thin the icing out or more icing sugar to thicken the icing. You can always add more raspberries for more flavour and colour, just be careful on the consistency of the icing. You want it thick enough to hold between the cookies but smooth enough to pipe. Cover icing and set aside.
+Once the cookie dough has firmed up, roll the dough out on a lightly floured work surface approx. 3/4 inch thick. Using a heart-shaped cookie cutter cut out hearts and place them on your prepared cookie sheet. Leave approx. 2 inches between each cookie. Continue until all the cookie dough is used.
+Sprinkle the tops of half of the cookies with the coloured sugar. Use a small spoon and generously spoon the sugar on top. Use the back of the spoon to gently press the sugar into the cookies very gently, you dont need to push the sugar into the cookies too hard.
+Bake cookies in the middle of the oven for 7-9 minutes or until the bottoms just start to turn golden. Remove from the oven and let the cookies sit on the pan for a minute or two before removing to a wire rack to cool completely be careful not to overbake the cookies, if the bottoms get too dark, remove the cookies from the pan immediately. 
+Once cookies have cooled pipe icing onto the back side of an empty heart then sandwich a pink sugared heart on top. Repeat until all the cookies are filled and sandwiched together. Let cookies set for 30-40 minutes before enjoying.","44 minutes","10 minutes");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Spider Halloween Brownies with Gooey Marshmallow Centre","Dark, chewy, and deliciously dramatic, these Halloween brownies are the ultimate spooky treat. A glossy spider web stretches across the top, hiding a layer of gooey marshmallow beneath every rich bite.","Make your cookie dough. In a large bowl of a stand mixer, beat butter with the paddle attachment for approx. 1 minute. Slowly add the sugar with the mixer running on medium-low speed. Scrape down the sides of the bowl as necessary. Continue to beat until fluffy. Add egg and vanilla extract. Beat until thick, pale in colour and fluffy. 
+In a separate large bowl add flour, baking powder and salt. Mix to combine ingredients.
+Spoon the flour mixture into the butter mixture beating on medium-low speed. Beat until the mixture forms into a ball.
+Flatten the dough into a disc, wrap in plastic wrap and refrigerate for 20 minutes. 
+Meanwhile, preheat the oven to 177˚C and line 2 baking sheets with parchment paper.
+Prepare your coloured sugar. In a small bowl add sugar and food colouring. Mix until the sugar turns pink. Set aside. 
+Make your icing. Beat butter for approx. 1 minute, add icing sugar, 1/2 tablespoon of whipping cream and fresh raspberries. Beat until the raspberries have broken and the mixture is fluffy and light, approx. 2 minutes. Add more whipping cream to thin the icing out or more icing sugar to thicken the icing. You can always add more raspberries for more flavour and colour, just be careful on the consistency of the icing. You want it thick enough to hold between the cookies but smooth enough to pipe. Cover icing and set aside.
+Once the cookie dough has firmed up, roll the dough out on a lightly floured work surface approx. 3/4 inch thick. Using a heart-shaped cookie cutter cut out hearts and place them on your prepared cookie sheet. Leave approx. 2 inches between each cookie. Continue until all the cookie dough is used.
+Sprinkle the tops of half of the cookies with the coloured sugar. Use a small spoon and generously spoon the sugar on top. Use the back of the spoon to gently press the sugar into the cookies very gently, you dont need to push the sugar into the cookies too hard.
+Bake cookies in the middle of the oven for 7-9 minutes or until the bottoms just start to turn golden. Remove from the oven and let the cookies sit on the pan for a minute or two before removing to a wire rack to cool completely be careful not to overbake the cookies, if the bottoms get too dark, remove the cookies from the pan immediately. 
+Once cookies have cooled pipe icing onto the back side of an empty heart then sandwich a pink sugared heart on top. Repeat until all the cookies are filled and sandwiched together. Let cookies set for 30-40 minutes before enjoying.","15 minutes","25 minutes");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Easy Blueberry Muffins","This easy blueberry muffin recipe is quick to make and yields muffins with a moist, tender center bursting with blueberries and a perfectly golden-brown top","Preheat oven and prep pan: Preheat the oven to 204°C. Line muffin cups with paper liners, 8 for big muffins, 10 for standard, or 22 for mini muffins. Lightly grease or spray the tops of the muffin tin with oil to prevent the oversized tops from sticking.
+Prepare the dry ingredients: In a large bowl, whisk the flour, sugar, baking powder, and salt.
+Prepare the wet ingredients: Choose a measuring jug that holds at least 1 cup. Add the oil to the jug, and then crack in the egg. Pour in enough milk to reach the 1-cup line on the jug, this should be about 1/3 cup of milk. Add the vanilla extract and whisk until everything is combined.
+Make the batter: Add the wet ingredients to the bowl with the dry ingredients. Stir gently until the batter comes together. Gently fold in the blueberries. Be careful not to overmix! The batter will be thick.
+Bake the muffins: Divide the batter between muffin cups. If making big-topped muffins, the batter will come to the tops of the paper liners. Sprinkle a little sugar on top of each muffin. Bake muffins for 15 to 20 minutes or until the tops are no longer wet and a toothpick inserted into the middle of a muffin comes out with crumbs, not wet batter.Transfer to a cooling rack.","10 minutes","20 minutes");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Banana Chocolate Chip Muffins","Whats better than banana muffins? When theyre loaded with chunky chocolate chips. With their signature domed tops and bright and buttery taste, our choc banana muffins can be eaten warm from the oven for a gooey chocolate experience, packed into a lunchbox or thrown in the freezer for later. All they need is a few seconds in the microwave and theyll return to their former glory.","Preheat oven to 200C or 180C fan-forced.
+Sift flour into a mixing bowl. Stir in sugar. Make a well in the centre of dry ingredients.
+Melt butter in a small saucepan or heat-proof bowl in the microwave. Set aside to cool slightly.
+Add milk, eggs and butter in to dry ingredients, along with mashed banana. Using a wooden spoon, gently mix ingredients until just combined. Stir in choc bits. Don't beat the mixture or the muffins will be tough.
+Line a muffin tray with paper cases. Spoon the mixture evenly into the muffin cases. Bake for 20 minutes or until firm on top when lightly touched.
+Leave in the tray for 3 minutes. Transfer the muffins to a rack to cool.","15 minutes","25 minutes");
+
+INSERT INTO Recipe(RecipeName,Description,Instructions,TotalTime,Ingredients,ImageURL) VALUES("Raspberry and White Chocolate Muffin","Raspberry & white chocolate muffins, quick & easy muffin recipe with delicious raspberries & white chocolate in every bite! The perfect easy muffin recipe for beginner bakers and they're ready in 45 minutes!","Preheat the oven to 180°C and grease a muffin tin or line with paper cases.
+Add dry ingredients to a medium sized mixing bowl and whisk together until combined.
+In a small bowl whisk together milk, yoghurt, egg, oil & vanilla.
+Make a well in the centre of the dry ingredients and pour the wet ingredients in. Mix together gently until barely combined. Add raspberries & white chocolate and fold in gently. DONT overmix the batter a few small lumps are fine.
+Evenly distribute the batter between the 12 prepared muffin tins.
+Bake for 25-30 minutes until the tops are starting to brown or until a toothpick inserted into the centre comes out clean.
+Allow to sit in the muffin tins for 10 minutes before turning out onto a cooling rack.","15 minutes","30 minutes");
+
+-- All recipes
+SELECT * FROM Recipe;
+-- All recipes and the category
+--Maker = to category
+SELECT Category.Name,Recipe.RecipeName FROM Recipe
+JOIN Category ON Category.CategoryID=Recipe.CategoryID;
+
+--Recipes under the same category
+SELECT Recipe.RecipeName FROM Recipe
+JOIN Category ON Category.CategoryID=Recipe.RecipeID
+WHERE Category.Name="Bread";
+
+--Just id, category, recipe name and imageurl
+SELECT Recipe.RecipeID,Category.Name,Recipe.RecipeName,Recipe.ImageURL
+FROM Recipe
+JOIN Category ON Category.CategoryID=Recipe.CategoryID;
+
+--just one recipe based on id
+SELECT * FROM Recipe 
+JOIN Category ON Category.CategoryID=Recipe.CategoryID
+WHERE Recipe.RecipeID = 2;
