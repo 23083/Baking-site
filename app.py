@@ -1,9 +1,11 @@
-from flask import Flask, g
+from flask import Flask, g, render_template
 import sqlite3
+
 DATABASE = 'database.db'
 
-#initialise app
+# initialise app
 app = Flask(__name__)
+
 
 def get_db():
     db = getattr(g, '_database', None)
@@ -11,11 +13,13 @@ def get_db():
         db = g._database = sqlite3.connect(DATABASE)
     return db
 
+
 @app.teardown_appcontext
 def close_connection(exception):
     db = getattr(g, '_database', None)
     if db is not None:
         db.close()
+
 
 def query_db(query, args=(), one=False):
     cur = get_db().execute(query, args)
@@ -26,23 +30,27 @@ def query_db(query, args=(), one=False):
 
 @app.route('/')
 def home():
-    #home page - just the ID, Category, RecipeName and Image
+    # home page - just the ID, Category, RecipeName and Image
     sql = """
-                SELECT Recipe.RecipeID,Category.Name,Recipe.RecipeName,Recipe.ImageURL
-                FROM Recipe
-                JOIN Category ON Category.CategoryID=Recipe.CategoryID;"""
+            SELECT Recipe.RecipeID,
+                Category.Name,Recipe.RecipeName,
+                Recipe.ImageURL
+            FROM Recipe
+            JOIN Category
+            ON Category.CategoryID=Recipe.CategoryID;"""
     results = query_db(sql)
-    return str(results)
+    return render_template("home.html", results=results)
 
 
 @app.route("/recipe/<int:id>")
 def recipe(id):
-    #just one recipe based on the id
-    sql = """SELECT * FROM Recipe 
+    # just one recipe based on the id
+    sql = """SELECT * FROM Recipe
     JOIN Category ON Category.CategoryID=Recipe.CategoryID
     WHERE Recipe.RecipeID = ?;"""
-    result = query_db(sql,(id,),True)
-    return str(result)
+    result = query_db(sql, (id,), True)
+    return render_template("recipe.html", recipe=result)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
