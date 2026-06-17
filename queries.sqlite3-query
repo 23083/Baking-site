@@ -222,5 +222,15 @@ JOIN Category ON Category.CategoryID=Recipe.CategoryID;
 
 --just one recipe based on id
 SELECT * FROM Recipe 
-JOIN Category ON Category.CategoryID=Recipe.CategoryID
+JOIN Category ON Recipe.CategoryID=Category.CategoryID
 WHERE Recipe.RecipeID = 2;
+
+SELECT * FROM Recipe
+    JOIN Category ON Recipe.CategoryID=Category.CategoryID
+    WHERE Category.CategoryID = 1;
+
+SELECT * FROM Category;
+
+SELECT * FROM Recipe
+    JOIN Category ON Recipe.CategoryID=Category.CategoryID
+    WHERE Category.CategoryID = ?;

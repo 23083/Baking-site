@@ -30,26 +30,30 @@ def query_db(query, args=(), one=False):
 
 @app.route('/')
 def home():
-    # home page - just the ID, Category, RecipeName and Image
+    # home page - Category
     sql = """
-            SELECT Recipe.RecipeID,
-                Category.Name,Recipe.RecipeName,
-                Recipe.ImageURL
-            FROM Recipe
-            JOIN Category
-            ON Category.CategoryID=Recipe.CategoryID;"""
+                SELECT * FROM Category;"""
     results = query_db(sql)
     return render_template("home.html", results=results)
 
+
+@app.route("/category/<int:id>")
+def category(id):
+    # just one category based on the id
+    sql = """SELECT * FROM Recipe
+    JOIN Category ON Recipe.CategoryID=Category.CategoryID
+    WHERE Category.CategoryID = ?;"""
+    result = query_db(sql, (id,))
+    return render_template("category.html", results=result)
 
 @app.route("/recipe/<int:id>")
 def recipe(id):
     # just one recipe based on the id
     sql = """SELECT * FROM Recipe
-    JOIN Category ON Category.CategoryID=Recipe.CategoryID
-    WHERE Recipe.RecipeID = ?;"""
-    result = query_db(sql, (id,), True)
-    return render_template("recipe.html", recipe=result)
+    JOIN Category ON Recipe.CategoryID=Category.CategoryID
+    WHERE Category.CategoryID = ?;"""
+    result = query_db(sql, (id,))
+    return render_template("category.html", results=result)
 
 
 if __name__ == "__main__":

@@ -4,11 +4,11 @@
 <!-- homepage goes here-->
 <!-- a 3 column grid-->
  <div class="three-column">
-    {% for category in results %}
-    <a href="{{ url_for('category', id=category[0]) }}">
+    {% for recipe in results %}
+    <a href="{{ url_for('recipe', id=recipe[0]) }}">
         <div class="w3-card-4">
             <!-- the name -->
-             <h1>{{ category[1] }} {{ category[2] }}</h1>
+             <h1>{{ recipe[1] }} {{ recipe[2] }}</h1>
         </div>
     </a>
          {% endfor %}
