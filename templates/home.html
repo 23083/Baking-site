@@ -6,9 +6,11 @@
  <div class="three-column">
     {% for category in results %}
     <a href="{{ url_for('category', id=category[0]) }}">
-        <div class="w3-card-4">
-            <!-- the name -->
-             <h1>{{ category[1] }} {{ category[2] }}</h1>
+      <div class="w3-card-4">
+          <!-- the category then the name -->
+           <h1>{{ category[1] }}</h1>
+          <!-- the category then the image -->
+          <img src="{{ category[2] }}" alt="{{ category[1] }}">
         </div>
     </a>
          {% endfor %}

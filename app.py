@@ -40,11 +40,12 @@ def home():
 @app.route("/category/<int:id>")
 def category(id):
     # just one category based on the id
-    sql = """SELECT * FROM Recipe
+    sql = """ SELECT Recipe.RecipeID,Category.Name,Recipe.Description,Recipe.ImageURL 
+    FROM Recipe
     JOIN Category ON Recipe.CategoryID=Category.CategoryID
     WHERE Category.CategoryID = ?;"""
-    result = query_db(sql, (id,))
-    return render_template("category.html", results=result)
+    results = query_db(sql, (id,))
+    return render_template("category.html", results=results)
 
 @app.route("/recipe/<int:id>")
 def recipe(id):
@@ -52,8 +53,8 @@ def recipe(id):
     sql = """SELECT * FROM Recipe
     JOIN Category ON Recipe.CategoryID=Category.CategoryID
     WHERE Category.CategoryID = ?;"""
-    result = query_db(sql, (id,))
-    return render_template("category.html", results=result)
+    results = query_db(sql, (id,))
+    return render_template("category.html", results=results)
 
 
 if __name__ == "__main__":
