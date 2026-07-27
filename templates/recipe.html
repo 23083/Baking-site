@@ -1,9 +1,18 @@
 {% extends "layout.html" %}
 {% block body %}
-<!-- Just one recipe -->
-<!-- two column grid -->
-<div class="two-column">
-    <!-- image on left -->
-     <img src="{{ url_for('static', filename=recipe[7]) }}" alt="{{ recipe[2] }}">
-</div>
-{% endblock %}
+
+<!-- homepage goes here-->
+<!-- a column grid-->
+ <div class="single-column">
+    {% for recipe in results %}
+    <a href="{{ url_for('recipe', id=recipe[0]) }}">
+      <div class="w3-card-4">
+          <!-- the recipe then the name -->
+           <h1>{{ recipe[1] }}</h1>
+          <!-- the recipe then the image -->
+          <img src="{{ recipe[2] }}" alt="{{ recipe[1] }}">
+        </div>
+    </a>
+         {% endfor %}
+        </div>
+        {% endblock %}

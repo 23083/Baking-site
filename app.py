@@ -40,7 +40,7 @@ def home():
 @app.route("/category/<int:id>")
 def category(id):
     # just one category based on the id
-    sql = """ SELECT Recipe.RecipeID,Category.Name,Recipe.Description,Recipe.ImageURL 
+    sql = """ SELECT Recipe.RecipeID,Recipe.RecipeName,Recipe.Description,Recipe.ImageURL 
     FROM Recipe
     JOIN Category ON Recipe.CategoryID=Category.CategoryID
     WHERE Category.CategoryID = ?;"""

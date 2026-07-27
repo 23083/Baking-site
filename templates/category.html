@@ -2,7 +2,7 @@
 {% block body %}
 
 <!-- homepage goes here-->
-<!-- a 3 column grid-->
+<!-- a column grid-->
  <div class="single-column">
     {% for recipe in results %}
     <a href="{{ url_for('recipe', id=recipe[0]) }}">
@@ -10,7 +10,7 @@
             <!-- the name -->
              <h2>{{ recipe[1] }}</h2>
              <!--smaller font-->
-             <p style="font-size: 16px;">{{recipe[2] }}</p>
+             <p style="font-size: 16px;">{{ recipe[2] }}</p>
              <!--the image-->
              {% if recipe[3] %}
                 <img src="{{ recipe[3] }}" alt="{{recipe[1] }}" style="max-width: 300px; display: block; margin-top: 10px;">
@@ -18,5 +18,5 @@
          </div>
     </a>
          {% endfor %}
-        </div>
-        {% endblock %}
+</div>
+{% endblock %}

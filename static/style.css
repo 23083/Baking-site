@@ -1,5 +1,6 @@
 body, h1, h2, h3, h4, h5, h6 { 
-    font-family: Chewy, sans-serif;
+    font-family: Chewy, cursive;
+    background-color: #FAFAF2;
 }
 
 .three-column{
@@ -17,4 +18,18 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3em;
+}
+
+.navbar{
+    background-color: #FFCFE4;
+}
+
+a .category-header{
+     color: #333333; 
+text-decoration: none;
+transition: color 0.3s ease; 
+}
+
+a:hover .category-header {
+     color: #FFCFE4
 }
