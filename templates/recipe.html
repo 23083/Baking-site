@@ -1,18 +1,43 @@
 {% extends "layout.html" %}
 {% block body %}
 
-<!-- homepage goes here-->
-<!-- a column grid-->
- <div class="single-column">
-    {% for recipe in results %}
-    <a href="{{ url_for('recipe', id=recipe[0]) }}">
-      <div class="w3-card-4">
-          <!-- the recipe then the name -->
-           <h1>{{ recipe[1] }}</h1>
-          <!-- the recipe then the image -->
-          <img src="{{ recipe[2] }}" alt="{{ recipe[1] }}">
+<div class="w3-container" style="max-width: 800px; margin: 0 auto; padding: 20px;">
+    {% if recipe %}
+        <!-- recipe[1] is RecipeName -->
+        <h1>{{ recipe[1] }}</h1>
+        
+        <!-- recipe[6] is ImageURL -->
+        {% if recipe[6] %}
+            <div class="recipe-image-wrapper">
+                <img src="{{ recipe[6] }}" alt="{{ recipe[1] }}" class="recipe-image">
+            </div>
+        {% endif %}
+
+        <div class="two-column">
+            <div>
+                <!-- recipe[2] is Description -->
+                <p style="font-size: 18px; font-style: italic;">{{ recipe[2] }}</p>
+            </div>
+            <div>
+                <!-- recipe[4] is TotalTime -->
+                <p class="cooking-time">Total Time: {{ recipe[4] }} minutes</p>
+            </div>
         </div>
-    </a>
-         {% endfor %}
+
+        <hr style="border-top: 2px solid #FFCFE4;">
+
+        <div class="two-column">
+            <div>
+                <h3>Ingredients</h3>
+                <!-- recipe[5] is Ingredients (using pre-line to keep formatting) -->
+                <p style="white-space: pre-line;">{{ recipe[5] }}</p>
+            </div>
+            <div>
+                <h3>Instructions</h3>
+                <!-- recipe[3] is Instructions -->
+                <p style="white-space: pre-line;">{{ recipe[3] }}</p>
+            </div>
         </div>
-        {% endblock %}
+    {% endif %}
+</div>
+{% endblock %}

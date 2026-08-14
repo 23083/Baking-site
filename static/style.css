@@ -14,6 +14,11 @@ img{
     width: 100%;
 }
 
+.recipe-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .two-column{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -24,6 +29,22 @@ img{
     background-color: #FFCFE4;
 }
 
+.cooking-time{
+    font-weight: bold; 
+    color: #ffc9e2;
+}
+
+.recipe-image-wrapper{
+    margin: 20px 0;
+}
+
+.recipe-image{
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
 a .category-header{
      color: #333333; 
 text-decoration: none;
@@ -32,4 +53,12 @@ transition: color 0.3s ease;
 
 a:hover .category-header {
      color: #FFCFE4
+}
+
+.preserve-breaks {
+    white-space: pre-line;
+}
+
+.back-button {
+    background-color: #FFCFE4;
 }
