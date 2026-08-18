@@ -14,5 +14,7 @@
         </div>
     </a>
          {% endfor %}
+         <div class="suggestions-section"> 
+          <h2 class="suggestions-title">Chef's Recommendations Today ⋆</h2> <div class="three-column"> {% for recipe in suggestions %} <!-- Links directly to your specific recipe page routing --> <a href="{{ url_for('recipe', id=recipe[0]) }}" class="suggestion-card-link"> <div class="w3-card-4 suggestion-card"> <img src="{{ recipe[2] }}" alt="{{ recipe[1] }}" class="suggestion-img"> <div class="w3-container w3-center" style="padding: 10px;"> <h3 style="font-size: 1.2em; color: #333333;">{{ recipe[1] }}</h3> </div> </div> </a> {% endfor %} </div> </div>
         </div>
         {% endblock %}

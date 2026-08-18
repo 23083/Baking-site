@@ -31,10 +31,14 @@ def query_db(query, args=(), one=False):
 @app.route('/')
 def home():
     # home page - Category
-    sql = """
-                SELECT * FROM Category;"""
-    results = query_db(sql)
-    return render_template("home.html", results=results)
+    sql = """SELECT * FROM Category;"""
+    results = query_db(sql_categories)
+    sql_suggestions = """SELECT RecipeID, RecipeName, ImageURL
+                         FROM Recipe
+                         ORDER BY RANDOM()
+                         LIMIT 3;"""
+    suggestions = query_db(sql_suggestions)
+    return render_template("home.html", results=results, suggestions=suggestions)
 
 
 @app.route("/category/<int:id>")
