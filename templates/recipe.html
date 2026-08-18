@@ -3,6 +3,12 @@
 
 <div class="w3-container" style="max-width: 800px; margin: 0 auto; padding: 20px;">
     {% if recipe %}
+    
+    <div class="button-group"> 
+        <!-- Takes user back to the recipe's category -->
+         <a href="{{ url_for('category', id=recipe[7]) }}" class="back-btn"> ← Back to Recipes </a>
+         </div>
+
         <!-- recipe[1] is RecipeName -->
         <h1>{{ recipe[1] }}</h1>
         
@@ -36,4 +42,5 @@
             </div>
         </div>
     {% endif %}
+    {% endblock %}
 </div>

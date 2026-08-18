@@ -31,7 +31,7 @@ img{
 
 .cooking-time{
     font-weight: bold; 
-    color: #ffc9e2;
+    color: black;
 }
 
 .recipe-image-wrapper{
@@ -59,6 +59,29 @@ a:hover .category-header {
     white-space: pre-line;
 }
 
-.back-button {
-    background-color: #FFCFE4;
+.recipeimg{
+    max-width: 300px;
+    display: block; 
+    margin-top: 10px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.button-group{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px; 
+}
+
+.back-btn{
+    display: inline-block; 
+    padding: 8px 20px; 
+    background-color: #FFCFE4; 
+    color: #333333; 
+    text-decoration: none; 
+    border-radius: 20px; 
+    font-weight: bold; 
+    transition: all 0.2s ease;
 }

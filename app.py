@@ -52,19 +52,16 @@ def category(id):
 @app.route("/recipe/<int:id>")
 def recipe(id):
     sql = """SELECT RecipeID, RecipeName, Description, Instructions,
-             TotalTime, Ingredients, ImageURL
+             TotalTime, Ingredients, ImageURL, CategoryID
              FROM Recipe
              WHERE RecipeID = ?;"""
     results = query_db(sql, (id,))
-    if len(results) > 0:
+    if results and len(results) > 0:
         recipe_data = results[0]
     else:
         recipe_data = None
     return render_template("recipe.html", recipe=recipe_data)
 
-
-# results = query_db(sql, (id,), one=True)
-# return render_template("recipe.html", recipe=results)
 
 if __name__ == "__main__":
     app.run(debug=True)
