@@ -63,5 +63,19 @@ def recipe(id):
     return render_template("recipe.html", recipe=recipe_data)
 
 
+@app.errorhandler(404)
+def page_not_found(e):
+    # Triggers if a user types a wrong URL path
+    return render_template('error.html', error_title="Page Not Found (404)",
+                           error_message="Oops! The recipe you are looking for doesn't exist."), 404
+
+
+@app.errorhandler(500)
+def internal_server_error(e):
+    # Triggers if there is a database crash or code breaks
+    return render_template('error.html', error_title="Server Error (500)",
+                           error_message="Something went wrong. We are looking into it!"), 500
+
+
 if __name__ == "__main__":
     app.run(debug=True)
