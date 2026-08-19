@@ -85,14 +85,3 @@ a:hover .category-header {
     font-weight: bold; 
     transition: all 0.2s ease;
 }
-
-.suggestions{
-    margin-top: 60px; 
-    padding-top: 30px; 
-    border-top: 2px dashed #FFCFE4;
-}
-
-.suggestions-title{
-    text-align: center; 
-    margin-bottom: 30px;
-}
